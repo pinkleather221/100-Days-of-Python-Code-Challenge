@@ -27,3 +27,7 @@ if age > 18:
          print("You must be a kenyan citizen")
 else:
      print("Sorry you are not eligible to vote ")
+
+
+
+     
