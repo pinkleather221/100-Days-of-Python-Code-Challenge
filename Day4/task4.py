@@ -17,4 +17,11 @@ names.extend(["alan", "wayne"]) # this adds the names to the existing list
 print(names)
 
 
+# looping through a list to output a random item
+names = ["nelly", "mogere", "gesare", "nelly"]
+random_name = r.choice(names) #used the r alias i had assigned my random module earlier
+print(random_name)
+    
+
+
 
