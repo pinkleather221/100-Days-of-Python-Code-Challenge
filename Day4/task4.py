@@ -21,7 +21,10 @@ print(names)
 names = ["nelly", "mogere", "gesare", "nelly"]
 random_name = r.choice(names) #used the r alias i had assigned my random module earlier
 print(random_name)
-    
+
+# alternative 
+random_i =r.randint(0,len(names)-1)
+print(names[random_i])
 
 
 
