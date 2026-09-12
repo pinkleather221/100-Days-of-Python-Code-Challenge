@@ -6,3 +6,15 @@ if heads_or_tails == 0:
     print("Heads")
 else:
     print("Tails")
+
+#list is a way of storing ordered data ,,,(its a data structure)
+names = ["nelly", "mogere", "gesare", "nelly"]
+poped = names.pop() #removes the last item and returns the item removed
+print(poped)
+names.remove("nelly") # removes the first occurence of the item specified in the paranthesis 
+print(names)
+names.extend(["alan", "wayne"]) # this adds the names to the existing list
+print(names)
+
+
+
