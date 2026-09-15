@@ -30,3 +30,10 @@ for score in students:
     if score < min_score:
         min_score = score
 print(f"{min_score}: Is the minumum score in the list")
+
+
+# getting the sum of numbers between (1 to 100)
+sum = 0
+for num in range (1,101):
+    sum += num
+print(sum)
