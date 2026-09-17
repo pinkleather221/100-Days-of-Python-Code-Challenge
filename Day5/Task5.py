@@ -1,3 +1,4 @@
+import random
 # using for loops and built-in python functions eg sum , max , min 
 
 students = [20,30,40,70,90,10,45,78]
@@ -37,3 +38,13 @@ sum = 0
 for num in range (1,101):
     sum += num
 print(sum)
+
+# shuffling a list one uses 
+random.shuffle(students)
+print(students)
+
+# shuffling a string 
+name = "Nelly"
+# this will retun a list and then the join combines the characters with no space in between
+shuffled_string = "".join(random.sample(name, len(name)))
+print(shuffled_string)
