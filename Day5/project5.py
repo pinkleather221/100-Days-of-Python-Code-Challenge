@@ -33,7 +33,7 @@ for sym in range(0, num_symbols):
 
 # Now we have a list of our password but it is ordered so what we need to do is shuffle it using the shuffle function
 random.shuffle(password)
-#we now want to join the password and print it out
+#we now want to join the password and print it out as a string 
 joined_password = "".join(password)
 
 print("Here is your hard to hack password!")
