@@ -14,4 +14,9 @@ while 5 > 2:
 # I will run forever
 # I will run forever
 
+# functions are used to avoid repetition and also make the code more readable 
 
+def print_name(): #defining the function
+    print("My name is nelly ")
+
+print_name() #calling the function
