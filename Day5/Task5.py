@@ -48,3 +48,13 @@ name = "Nelly"
 # this will retun a list and then the join combines the characters with no space in between
 shuffled_string = "".join(random.sample(name, len(name)))
 print(shuffled_string)
+
+import random
+
+# A small deck of cards
+deck = ["Ace of Spades", "King of Hearts", "Queen of Diamonds", "Jack of Clubs", "10 of Spades"]
+
+# Deal a hand of 3 unique cards
+hand = random.sample(deck, k=3)
+
+print("Your hand:", hand)
