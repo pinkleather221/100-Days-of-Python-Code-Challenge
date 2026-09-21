@@ -11,13 +11,26 @@ for l in random_word:
     placeholder += "_"
 print(placeholder)
 
+# creating an empty list to store the correctly guessed letters 
+c_guessed = []
+
+game_over = False
+while not game_over: 
 # replacing the underscore with the correct guessed letter 
-guess = input("Guess a letter ").lower()
-display = ""
-for letter in random_word:
-    if letter == guess:
-        display += letter
-    else:
-        display += "_"
-print(display)      
+    guess = input("Guess a letter ").lower()
+    display = ""
+    for letter in random_word:
+        if letter == guess:
+            display += letter
+            c_guessed.append(guess)
+        elif letter in c_guessed:
+            display+= letter
+        else:
+            display += "_"
+    print(display)    
+
+    # checking to see if the underscore is no longer in the word then printing out "you win " and game_over resets to true 
+    if "_" not in display:
+        game_over = True
+        print("You got it right, You win!")  
 
