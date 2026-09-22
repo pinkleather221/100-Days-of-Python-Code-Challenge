@@ -1,0 +1,22 @@
+word_list = [
+    "adventure", "alphabet", "anchor", "astronaut", "backpack",
+    "balloon", "banana", "bicycle", "blizzard", "blossom",
+    "breeze", "bucket", "butterfly", "cactus", "camel",
+    "campfire", "candle", "canyon", "castle", "cheetah",
+    "cherry", "chimney", "circle", "climate", "clover",
+    "compass", "crystal", "cupcake", "daisy", "diamond",
+    "dolphin", "dragon", "drumstick", "eagle", "earthquake",
+    "eclipse", "elephant", "emerald", "engine", "eyebrow",
+    "feather", "firefly", "flamingo", "forest", "fountain",
+    "galaxy", "garden", "gecko", "glacier", "gorilla",
+    "guitar", "harvest", "hedgehog", "highway", "horizon",
+    "hurricane", "iceberg", "island", "jacket", "jaguar",
+    "jungle", "kangaroo", "kingdom", "lantern", "leopard",
+    "lighthouse", "lizard", "luggage", "magnet", "meadow",
+    "mermaid", "meteor", "monkey", "mountain", "necklace",
+    "octopus", "ostrich", "oxygen", "palace", "panther",
+    "peacock", "penguin", "pillow", "pirate", "planet",
+    "pocket", "pyramid", "rainbow", "river", "rocket",
+    "safari", "scooter", "shadow", "shampoo", "skeleton",
+    "spaceship", "squirrel", "submarine", "sunflower", "sunset"
+]
