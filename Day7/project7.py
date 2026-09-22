@@ -1,8 +1,10 @@
 # Hang man game
 # import the random module 
 import random
+from hangman_art import hangman_stages, hangman_banner
+from hangman_words import word_list
+print(hangman_banner)
 lives = 6
-word_list = ["serendipity", "ephemeral", "luminescence", "solitude", "resilience", "eloquence", "melancholy", "aurora", "petrichor", "alcyon"] 
 random_word = random.choice(word_list)
 print (random_word)
 
