@@ -17,11 +17,16 @@ print(placeholder)
 # creating an empty list to store the correctly guessed letters 
 c_guessed = []
 
+
 game_over = False
 
 while not game_over: 
 # replacing the underscore with the correct guessed letter 
     guess = input("Guess a letter ").lower()
+
+    if guess in c_guessed:
+       print(f"Already guessed {guess} guess a different letter ")
+       
     display = ""
     for letter in random_word:
         if letter == guess:
@@ -41,12 +46,20 @@ while not game_over:
     if "_" not in display:
         game_over = True
         print("You got it right, You win!")
+        
 
-    if guess not in random_word:
+
+    if guess not in c_guessed:
         lives -= 1
+        print(f"You guessed letter {guess} its not in the word")
+        print(f"You have lost one life,  {lives} remaining!")
+       
+                
         if lives == 0:
             game_over = True
             print("You Loose")
+
+            
 
     print(hangman_stages[lives])
 

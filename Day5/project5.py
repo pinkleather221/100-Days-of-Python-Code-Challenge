@@ -1,4 +1,5 @@
 # password generator project
+
 import random
 # create lists to store the combiations the password can be made from 
 # all caps and small case letters
@@ -19,6 +20,7 @@ num_symbols = int(input("Enter the number of symbols you would like your passwor
 #contains the functionality of creating an empty list and then randomly picking the items from the list based by the number input from the user
 # then appending the random items to the empty password list
 password = []
+['f','g','M','2','4','1','#','@']
 for letter in range(0,num_letters):
     random_letter =random.choice(letters)
     password.append(random_letter)
