@@ -6,7 +6,7 @@ from hangman_words import word_list
 print(hangman_banner)
 lives = 6
 random_word = random.choice(word_list)
-print (random_word)
+# print (random_word)
 
 # printing out underscore in place of the word the computer randomly chose 
 placeholder = ""
@@ -58,6 +58,7 @@ while not game_over:
         if lives == 0:
             game_over = True
             print("You Loose")
+            print(f"The correct word was {random_word}")
 
             
 
